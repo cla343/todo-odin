@@ -5,6 +5,8 @@ import './dom.js';
 const projects = [];
 
 function addProjectsButton() {
+    console.log('Add button clicked'); // <-- check this logs
+
     const addButton = document.getElementById('addButton');
     const titleInput = document.getElementById('projectTitleInput')
 
